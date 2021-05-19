@@ -1,3 +1,11 @@
+# Timetable Management System
+Frontend application for ITPM module.
+
+## Student Information
+    - IT18161366
+    - Subasinghe M.P.M.R.
+
+
 [![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)
 
 ![Maintained][maintained-badge]
