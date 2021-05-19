@@ -6,6 +6,7 @@ const sessionSchema = new mongoose.Schema({
   selectedSubject: { type: Schema.Types.ObjectId, ref: "subject" },
   selectedTag: { type: String },
   selectedGroup: { type: Schema.Types.ObjectId, ref: "batch" },
+  selectedSubGroup: { type: Schema.Types.ObjectId, ref: "subGroup"},
   studentCount: { type: String },
   duration: { type: String },
 

@@ -46,11 +46,11 @@ export class SessionsService {
   }
 
   public viewLectureSessions() {
-    return this.http.get(`${AppConfig.environment}/lsessions`);
+    return this.http.get(`${AppConfig.environment}/sessions`);
   }
 
   public viewTutorialSessions() {
-    return this.http.get(`${AppConfig.environment}/tsessions`);
+    return this.http.get(`${AppConfig.environment}/sessions`);
   }
 
 }

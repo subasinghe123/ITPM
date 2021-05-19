@@ -36,6 +36,7 @@ export class AddSessionComponent implements OnInit {
   public selectedSubject: string;
   public selectedTag: string;
   public selectedGroup: string;
+  public selectedSubGroup: string;
   //public selectedBatch: string;
   public studentCount: string;
   public duration: string;

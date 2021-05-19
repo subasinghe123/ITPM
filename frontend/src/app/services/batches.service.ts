@@ -23,7 +23,7 @@ export class BatchesService {
   }
 
   public viewMainGroups() {
-    return this.http.get(`${AppConfig.environment}/batches/maingroups`);
+    return this.http.get(`${AppConfig.environment}/groups`);
   }
 
   public viewSubGroups() {

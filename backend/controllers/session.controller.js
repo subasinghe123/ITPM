@@ -4,9 +4,12 @@ const mongoose = require("mongoose");
 const addSession = (req, res) => {
   //Adding session
   const session = new Session(req.body);
+
+  console.log(JSON.stringify(req.body));
   session.selectedLecturer = mongoose.Types.ObjectId(req.body.selectedLecturer);
   session.selectedSubject = mongoose.Types.ObjectId(req.body.selectedSubject);
   session.selectedGroup = mongoose.Types.ObjectId(req.body.selectedGroup);
+  session.selectedSubGroup = mongoose.Types.ObjectId(req.body.selectedSubGroup);
 
   session
     .save()
